@@ -138,7 +138,7 @@ export const projectsData = [
     title: "E-Commerce App (Internship)",
     description:
       "Built during my internship. Includes invoice management and integrated chat system.",
-    tags: ["React", "Node.js", "MongoDB", "Express.js", "Tabler"],
+    tags: ["Angular", "Node.js", "MongoDB", "Express.js", "Bootstrap"],
     imageUrl: corpcommentImg,
   },
 ] as const;
