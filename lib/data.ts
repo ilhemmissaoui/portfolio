@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -35,73 +36,143 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Trainer | SmartTech",
+    location: "Tunisia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Delivered full-stack training in JavaScript, React.js, Node.js, Express.js, and MongoDB. Mentored students through real projects and Git version control.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "May 2020 – August 2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Web Developer | Pixelium",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked on multiple projects including PayDay (payroll system), Kids Protect (child safety app), and Unetp (school admin platform).",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Sept 2021 – Nov 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Web Developer | Nehos Group",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Built platforms like JFS (recruitment), ViviTools (business planning), and GRON (energy renovation tracker). Used Next.js, Sequelize, MySQL, REST APIs.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Feb 2023 – Dec 2024",
+  },
+  {
+    title: "Mission | Sole Digital Media",
+    location: "Remote",
+    description:
+      "Developed SEO-optimized showcase websites using Next.js. Managed hosting, performance, and visibility via Google Search Console.",
+    icon: React.createElement(CgWorkAlt),
+    date: "March 2025 – June 2025",
   },
 ] as const;
 
+
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "PayDay",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "An all-in-one platform for employee management and secure salary payments, including payslips and transfers with Stripe integration.",
+    tags: ["React", "Node.js", "MongoDB", "Express.js", "Stripe"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Kids Protect",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A mobile and web application designed to help parents protect their children's visual and mental health.",
+    tags: ["React.js", "Meteor", "MongoDB", "Redux"],
+    imageUrl: corpcommentImg,
   },
   {
-    title: "Word Analytics",
+    title: "Unetp",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A web app for managing private institutions, with advanced security and traceability features.",
+    tags: ["Next.js", "JavaScript", "Redux", "Material UI"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Educational Platform",
+    description:
+      "Platform for managing students, teachers, and timetables. Includes backend and UI for school admin.",
+    tags: ["Laravel", "PHP", "SQL", "HTML", "CSS"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Localira",
+    description:
+      "A showcase website for vehicle tracking and geolocation via GPS/GPRS.",
+    tags: ["WordPress", "PHP", "MySQL"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "JFS Recruitment Platform",
+    description:
+      "Connects recruiters and candidates with a matching algorithm based on job offers and profiles.",
+    tags: ["Next.js", "TypeScript", "MySQL", "REST API", "Redux Toolkit"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "ViviTools",
+    description:
+      "Business management platform using the Business Model Canvas and Plan. Includes team and finance coordination.",
+    tags: ["React", "Node.js", "Sequelize", "MySQL", "Express.js", "Tailwind"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "GRON",
+    description:
+      "A platform uniting stakeholders in energy renovation to track projects using a standardized process.",
+    tags: ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind", "Storybook"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "Sole Digital Media Websites",
+    description:
+      "Showcase sites optimized for SEO and speed using Next.js and Google Search Console.",
+    tags: ["Next.js", "Tailwind", "TypeScript", "SEO", "Seoptimer"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "E-Commerce App (Internship)",
+    description:
+      "Built during my internship. Includes invoice management and integrated chat system.",
+    tags: ["React", "Node.js", "MongoDB", "Express.js", "Tabler"],
+    imageUrl: corpcommentImg,
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "Saas",
+  "Tailwind",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
+  "Angular",
   "Next.js",
   "Node.js",
+  "Nest.js",
+"Meteor.js",
+"React hook form",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Laravel",
+  "PHP",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Mysql",
+  "SQLite",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Redux",
+  "Redux Toolkit",
+  "GraphQL",
+  "Sequilize",
+  "Elequent",
   "Framer Motion",
+  "Storybook",
+
 ] as const;
