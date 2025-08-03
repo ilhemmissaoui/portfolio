@@ -75,14 +75,14 @@ export const projectsData = [
     title: "PayDay",
     description:
       "An all-in-one platform for employee management and secure salary payments, including payslips and transfers with Stripe integration.",
-    tags: ["React", "Node.js", "MongoDB", "Express.js", "Stripe"],
+    tags: [" React", "NodeJS", "Stripe", "Tabler", "JavaScript", "NoSQL", "mongoDB", "ExpressJS"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Kids Protect",
     description:
       "A mobile and web application designed to help parents protect their children's visual and mental health.",
-    tags: ["React.js", "Meteor", "MongoDB", "Redux"],
+    tags: [" React.js", "Meteor", "MongoDB", "Javascript", "Redux"],
     imageUrl: corpcommentImg,
   },
   {
@@ -96,7 +96,7 @@ export const projectsData = [
     title: "Educational Platform",
     description:
       "Platform for managing students, teachers, and timetables. Includes backend and UI for school admin.",
-    tags: ["Laravel", "PHP", "SQL", "HTML", "CSS"],
+    tags: ["Laravel", "PHP", "HTML", "CSS", "SQL", "Eloquent", "mySQL"],
     imageUrl: corpcommentImg,
   },
   {
@@ -110,14 +110,14 @@ export const projectsData = [
     title: "JFS Recruitment Platform",
     description:
       "Connects recruiters and candidates with a matching algorithm based on job offers and profiles.",
-    tags: ["Next.js", "TypeScript", "MySQL", "REST API", "Redux Toolkit"],
+    tags: ["Next.js", "Storybook", "TypeScript", "Sequelize", "MySQL", "Redux Toolkit"],
     imageUrl: corpcommentImg,
   },
   {
     title: "ViviTools",
     description:
       "Business management platform using the Business Model Canvas and Plan. Includes team and finance coordination.",
-    tags: ["React", "Node.js", "Sequelize", "MySQL", "Express.js", "Tailwind"],
+    tags: ["React", "NodeJS", "Tailwind", "JavaScript", "SQL", "storybook", "React hook form", "mySQL", "sequelize", "REST", "ExpressJS"],
     imageUrl: corpcommentImg,
   },
   {
