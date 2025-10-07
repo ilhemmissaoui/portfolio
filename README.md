@@ -21,7 +21,7 @@ This is a personal portfolio website built with [Next.js](https://nextjs.org/) a
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/ilhemmissaoui/portfolio-website.git
    ```
 2. Navigate to the project directory:
    ```
